@@ -11,7 +11,7 @@ A small-scale social media application built using **React JS** with **TypeScrip
   - Password-based authentication.
 
 - **Post Management**
-  - Users can create, edit, and delete their posts.
+  - Users can post, like, save and delete their posts.
   - View posts from all users.
 
 - **Interactive Features**
@@ -59,8 +59,37 @@ Ensure you have the following installed:
    cd social-media-app
 
 ### Dependency 
+
  ```bash
  npm install
 # or
 yarn install
+```
+
+### Create .env File
+-- Create the .env file in the root directory and add the firebase config
+
+```
+VITE_FIREBASE_API_KEY=your-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
+VITE_FIREBASE_APP_ID=your-app-id
+
+```
+
+### Start the Development Server
+
+```
+npm run dev
+```
+
+
+### Open the app in browser
+
+```
+http://localhost:5173
+```
+
 
